@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'montserratMed';
+    src: url('fonts/Montserrat-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'montserratThin';
+    src: url('fonts/MontserratAlternates-Thin.otf') format('opentype');
+}
+
+body {
+    background-color: #d6cfcb;
+}
+
+h1 {
+
+    font-family: montserrat;
+}
+
+p {
+    font-family: montserratThin;
+}
