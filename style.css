@@ -23,6 +23,11 @@ body {
     font-family: montserratMed;
 }
 
+#minhasRedesSociais{
+    text-align: left;
+
+}
+
 li {
     font-family: montserratBold;
 }
