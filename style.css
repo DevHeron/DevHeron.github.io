@@ -6,16 +6,41 @@
     font-family: 'montserratThin';
     src: url('fonts/MontserratAlternates-Thin.otf') format('opentype');
 }
+@font-face {
+    font-family: 'montserratBold';
+    src: url('fonts/MontserratAlternates-Bold.otf') format('opentype');
+}
+
 
 body {
     background-color: #d6cfcb;
-}
-
-h1 {
-
-    font-family: montserrat;
-}
-
-p {
     font-family: montserratThin;
 }
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    font-family: montserratMed;
+}
+
+#minhasRedesSociais{
+    text-align: left;
+
+}
+
+li {
+    font-family: montserratBold;
+}
+
+.organizacao {
+    font-size: 30px;
+}
+
+.softSkills {
+    font-size: 25px;
+}
+
+.determinacao {
+    font-size: 20px;
+}
+
