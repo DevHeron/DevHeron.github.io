@@ -17,15 +17,27 @@ body {
     font-family: montserratThin;
 }
 
-.container {
+#meuNome {
     text-align: center;
-    margin: 0 auto;
-    font-family: montserratMed;
 }
 
-#minhasRedesSociais{
-    text-align: left;
+#minhaFoto {
+    float: left;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: #706677;
+    margin: auto 25px;
+    
+}
 
+#container-descricao {
+    height: 430px;
+    color: black;
+}
+
+
+div {
+    border: 2px solid green;
 }
 
 li {
