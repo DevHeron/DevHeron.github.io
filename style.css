@@ -17,42 +17,77 @@ body {
     font-family: montserratThin;
 }
 
+#redes-sociais {
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+#redes-sociais a {
+    margin-left: 30px;
+
+}
+
 #meuNome {
     text-align: center;
 }
 
 #minhaFoto {
+    max-width: 250px;
     float: left;
     border-radius: 50px;
-    padding: 15px;
+    padding: 10px;
     background-color: #706677;
-    margin: auto 25px;
+    margin-left: 25px;
     
 }
 
 #container-descricao {
-    height: 430px;
+    height: 350px;
     color: black;
 }
 
-
-div {
-    border: 2px solid green;
+#descricao {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-size: 2em;
 }
 
-li {
+#container-habilidades {
+    padding: 25px;
+}
+
+#container-habilidades h1 {
+    float: left;
+
+}
+
+
+#container-habilidades ul li {
     font-family: montserratBold;
+    display: inline;
+    margin-left: 30px;
 }
 
-.organizacao {
+.HTML {
+    font-size: 40px;
+}
+
+.CSS {
+    font-size: 35px;
+}
+
+.JavaScript {
     font-size: 30px;
 }
 
-.softSkills {
+.GitHub {
+    font-size: 30px;
+}
+
+.C{
     font-size: 25px;
 }
-
-.determinacao {
+.R {
     font-size: 20px;
 }
-
